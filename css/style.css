@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+ul{
+    list-style-type: none ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color:rgb(83, 82, 82);
+}
+.titulo{
+    display: flex;
+    margin-top: 2rem;
+}
+
+aside {
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem ;
+}
+
+.boton-menu{
+    background-color: transparent;
+    border: 0 ;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.boton-menu.active{
+    background-color: white;
+    color: rgb(83, 82, 82);
+    width: 100%;
+    border-radius: 1rem ;
+}
+
+
+.boton-menu > .bi-hand-index-thumb-fill,
+.boton-menu > .bi-hand-index-thumb{
+    transform: rotateZ(90deg);
+}
+
+.boton-carrito{
+    margin-top: 2rem;
+}
+
+.numerito{
+    background-color: white;
+    color: rgb(83, 82, 82);
+    padding: .15rem .25rem;
+    border-radius: .25rem;
+}
+
+.boton-carrito.active .numerito{
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
+.texto-footer {
+    color:rgb(145, 140, 140);
+    font-size: .85rem;
+}
+
+main{
+    background-color: white;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.container-titulo-principal{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    text-transform: uppercase;
+    background-color: rgb(148, 138, 138);
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white(148, 138, 138);
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+
+
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    height: 370px;
+}
+
+.producto-detalles{
+    background-color: rgb(148, 138, 138);
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .45rem;
+}
+
+.producto-titulo{
+    font-size: 1rem;
+}
+
+.producto-agregar{
+    border: 0;
+    background-color: white;
+    color: rgb(148, 138, 138);
+    padding: .5rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: background-color .2s, color .2s;
+}
+.producto-agregar:hover{
+    background-color: rgb(148, 138, 138);
+    color: white;
+}
+
+/**  Carrito **/
+
+.contenedor-carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+.bi-emoji-frown{
+    color: orange;
+}
+
+.bi-emoji-laughing{
+    color: orangered;
+}
+
+.carrito-vacio,
+.carrito-comprado{
+    color: rgb(148, 138, 138);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column ;
+    gap: 1rem;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 218, 218);
+    color: rgb(148, 138, 138);
+    padding: .5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto-imagen{
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto-small{
+    font-size: .75rem;
+}
+
+.carrito-producto-eliminar{
+    border: 0;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.carrito-acciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito-acciones-vaciar{
+    border: 0;
+    background-color: rgb(221, 218, 218);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(99, 96, 96);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.carrito-acciones-derecha{
+    display: flex;
+}
+
+.carrito-acciones-total{
+    display: flex;
+    background-color: rgb(221, 218, 218);
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: rgb(99, 96, 96);
+    text-transform: uppercase;
+    gap: 1rem;
+}
+
+.carrito-acciones-comprar{
+    border: 0;
+    background-color: rgb(148, 138, 138);
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.disabled{
+    display: none;
+}

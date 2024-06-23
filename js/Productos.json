@@ -1,0 +1,272 @@
+[
+    {
+        "id": "buzo-01",
+        "titulo": "TOP DE ENTRENAMIENTO ARGENTINA",
+        "imagen": "./img/buzos/buzo 1.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 99.999
+    },
+    {
+        "id": "buzo-02",
+        "titulo": "CAMPERA DEPORTIVA TIRO SELECCIÓN",
+        "imagen": "./img/buzos/buzo 2.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 114.999
+    },
+    {
+        "id": "buzo-03",
+        "titulo": "CAMPERA DEPORTIVA TEJIDA SELECCIÓN",
+        "imagen": "./img/buzos/buzo 3.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 154.999
+    },
+    {
+        "id": "buzo-04",
+        "titulo": "TOP DE ENTRENAMIENTO ARGENTINA",
+        "imagen": "./img/buzos/buzo 4.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 99.999
+    },
+    {
+        "id": "buzo-05",
+        "titulo": "BUZO CON CAPUCHA RIVER PLATE",
+        "imagen": "./img/buzos/buzo 5.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 104.999
+    },
+    {
+        "id": "buzo-06",
+        "titulo": "BUZO CON CAPUCHA FUTURE ICONS",
+        "imagen": "./img/buzos/buzo 6.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio":  99.999
+    },
+    {
+        "id": "buzo-07",
+        "titulo": "OHH- FLEECE",
+        "imagen": "./img/buzos/buzo 7.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 107.999
+    },
+    {
+        "id": "buzo-08",
+        "titulo": "BUZO CON CAPUCHA ESSENTIALS",
+        "imagen": "./img/buzos/buzo 8.jpg",
+        "categoria": {
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 82.999
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "REMERA ARGENTINA 24",
+        "imagen": "./img/camisetas/camiseta 1.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 51.999
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "REMERA ARGENTINA 24 GRIS",
+        "imagen": "./img/camisetas/camiseta 2.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 51.999
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "REMERA ARGENTINA ADN 3 TIRAS 24",
+        "imagen": "./img/camisetas/camiseta 3.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 45.999
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "REMERA ARGENTINA ESTAMPADA 24",
+        "imagen": "./img/camisetas/camiseta 4.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 45.999
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "REMERA OWN THE RUN",
+        "imagen": "./img/camisetas/camiseta 5.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 47.999
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "CHOMBA DE TENIS CLUB 3 TIRAS",
+        "imagen": "./img/camisetas/camiseta 6.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 74.999
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "REMERA ESTAMPADA CLASSIC MON..",
+        "imagen": "./img/camisetas/camiseta 7.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio":  50.999
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "REMERA HIIT AEROREADY",
+        "imagen": "./img/camisetas/camiseta 8.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 26.599
+    },
+    {
+        "id": "camiseta-09",
+        "titulo": "REMERA ESSENTIALS TRIFOLIO",
+        "imagen": "./img/camisetas/camiseta 9.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 32.899
+    },
+    {
+        "id": "camiseta-10",
+        "titulo": "REMERA MONOGRAMA ESTAMPADA",
+        "imagen": "./img/camisetas/camiseta 10.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 35.699
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "PANTALÓN PRESENTACIÓN ARGENTINA 24",
+        "imagen": "./img/pantalones/pantalon 1.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 94.999
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "PANTALÓN DEPORTIVO ADN ARGENTINA",
+        "imagen": "./img/pantalones/pantalon 2.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 85.999
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "PANTALÓN AEROREADY ESSENTIALS",
+        "imagen": "./img/pantalones/pantalon 3.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 70.999
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "PANTALÓN TERREX XPERIOR",
+        "imagen": "./img/pantalones/pantalon 4.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 159.999
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "PANTALÓN ALL SZN 3 TIRAS",
+        "imagen": "./img/pantalones/pantalon 5.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 85.999
+    },
+    {
+        "id": "pantalon-06",
+        "titulo": "PANTALÓN DEPORTIVO ADIDAS GRAPHIC",
+        "imagen": "./img/pantalones/pantalon 6.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 97.999
+    },
+    {
+        "id": "pantalon-07",
+        "titulo": "PANTALÓN PITCH 2 STREET MESSI",
+        "imagen": "./img/pantalones/pantalon 7.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 85.999
+    },
+    {
+        "id": "pantalon-08",
+        "titulo": "PANTS FUTURE ICONS 3 TIRAS",
+        "imagen": "./img/pantalones/pantalon 8.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 109.999
+    },
+    {
+        "id": "pantalon-09",
+        "titulo": "PANTALÓN PREMIUM CLASSIC STREET",
+        "imagen": "./img/pantalones/pantalon 9.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 305.999
+    }
+]
